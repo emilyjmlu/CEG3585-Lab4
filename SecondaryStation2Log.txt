@@ -1,0 +1,117 @@
+--------------------Connection to Primary-------------------
+Physical layer: received frame >01111110 00000001 11001001 01111110<
+Physical layer: received frame >01111110 00000001 11001110 01111110<
+Physical layer: received frame >01111110 00000010 11001001 01111110<
+Data Link Layer: received SNRM frame >01111110 00000010 11001001 01111110<
+Secondary Station (2): Received conenct indication
+Secondary Station (2): Issuing connect confirmation
+Data Link Layer: prepared UA frame >01111110 00000010 11001110 01111110<
+Physical layer: transmitted frame >01111110 00000010 11001110 01111110<
+------------------------------------------------------------
+--------------------Send Message To Primary-------------------
+Secondary Station (2): Issuing data request
+Physical layer: received frame >01111110 00000010 10001000 01111110<
+Physical layer: transmitted frame >01111110 00000010 00000000 01010011 ...  01101111 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01010011 01110100 01100001 01110100 ...  01100110 01101111<
+    v(s) = 1, v(r) = 0, Window: lhs=0 rhs=4, Number frames buffered = 1
+Physical layer: transmitted frame >01111110 00000010 00010000 01110010 ...  01001000 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01110010 00100000 01110100 01100101 ...  00100000 01001000<
+    v(s) = 2, v(r) = 0, Window: lhs=0 rhs=4, Number frames buffered = 2
+Physical layer: transmitted frame >01111110 00000010 00100000 01000100 ...  01110000 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01000100 01001100 01000011 00100000 ...  01110000 01110000<
+    v(s) = 3, v(r) = 0, Window: lhs=0 rhs=4, Number frames buffered = 3
+Physical layer: transmitted frame >01111110 00000010 00110000 01101111 ...  01101001 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01101111 01110010 01110100 00100000 ...  01110011 01101001<
+    v(s) = 4, v(r) = 0, Window: lhs=0 rhs=4, Number frames buffered = 4
+Physical layer: received frame >01111110 00000010 10000001 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000001 01111110<
+    v(s) = 4, v(r) = 0, Window: lhs=1 rhs=5, Number frames buffered = 3
+Physical layer: transmitted frame >01111110 00000010 01000000 01100011 ...  01101110 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01100011 01100001 01101100 00100000 ...  01101110 01101110<
+    v(s) = 5, v(r) = 0, Window: lhs=1 rhs=5, Number frames buffered = 4
+Physical layer: received frame >01111110 00000010 10000010 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000010 01111110<
+    v(s) = 5, v(r) = 0, Window: lhs=2 rhs=6, Number frames buffered = 3
+Physical layer: transmitted frame >01111110 00000010 01010000 01100101 ...  01110000 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01100101 01100011 01110100 01100101 ...  00100000 01110000<
+    v(s) = 6, v(r) = 0, Window: lhs=2 rhs=6, Number frames buffered = 4
+Physical layer: received frame >01111110 00000010 10000011 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000011 01111110<
+    v(s) = 6, v(r) = 0, Window: lhs=3 rhs=7, Number frames buffered = 3
+Physical layer: transmitted frame >01111110 00000010 01100000 01110010 ...  01110100 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01110010 01101001 01101101 01100001 ...  00100000 01110100<
+    v(s) = 7, v(r) = 0, Window: lhs=3 rhs=7, Number frames buffered = 4
+Physical layer: received frame >01111110 00000010 10000100 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000100 01111110<
+    v(s) = 7, v(r) = 0, Window: lhs=4 rhs=0, Number frames buffered = 3
+Physical layer: transmitted frame >01111110 00000010 01110000 01110111 ...  01110011 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01110111 01101111 00100000 01110011 ...  01100101 01110011<
+    v(s) = 0, v(r) = 0, Window: lhs=4 rhs=0, Number frames buffered = 4
+Physical layer: received frame >01111110 00000010 10000101 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000101 01111110<
+    v(s) = 0, v(r) = 0, Window: lhs=5 rhs=1, Number frames buffered = 3
+Physical layer: transmitted frame >01111110 00000010 00000000 01110011 ...  01100100 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01110011 01100001 01100111 01100101 ...  01101110 01100100<
+    v(s) = 1, v(r) = 0, Window: lhs=5 rhs=1, Number frames buffered = 4
+Physical layer: received frame >01111110 00000010 10000110 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000110 01111110<
+    v(s) = 1, v(r) = 0, Window: lhs=6 rhs=2, Number frames buffered = 3
+Physical layer: transmitted frame >01111110 00000010 00010000 01100001 ...  01101110 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01100001 01110010 01111001 00100000 ...  01100001 01101110<
+    v(s) = 2, v(r) = 0, Window: lhs=6 rhs=2, Number frames buffered = 4
+Physical layer: received frame >01111110 00000010 10000111 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000111 01111110<
+    v(s) = 2, v(r) = 0, Window: lhs=7 rhs=3, Number frames buffered = 3
+Physical layer: transmitted frame >01111110 00000010 00100000 01111001 ...  01101111 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >01111001 00100000 01001000 01000100 ...  01110100 01101111<
+    v(s) = 3, v(r) = 0, Window: lhs=7 rhs=3, Number frames buffered = 4
+Physical layer: received frame >01111110 00000010 10000000 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000000 01111110<
+    v(s) = 3, v(r) = 0, Window: lhs=0 rhs=4, Number frames buffered = 3
+Physical layer: transmitted frame >01111110 00000010 00111000 00100000 ...  01100101 01111110<
+Data Link Layer: Station 2: Data Link Layer: prepared and buffered I frame >00100000 01110011 01100101 01101110 ...  01100111 01100101<
+    v(s) = 4, v(r) = 0, Window: lhs=0 rhs=4, Number frames buffered = 4
+Physical layer: received frame >01111110 00000010 10000001 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000001 01111110<
+    v(s) = 4, v(r) = 0, Window: lhs=1 rhs=5, Number frames buffered = 3
+Physical layer: received frame >01111110 00000010 10000010 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000010 01111110<
+    v(s) = 4, v(r) = 0, Window: lhs=2 rhs=6, Number frames buffered = 2
+Physical layer: received frame >01111110 00000010 10000011 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000011 01111110<
+    v(s) = 4, v(r) = 0, Window: lhs=3 rhs=7, Number frames buffered = 1
+Physical layer: received frame >01111110 00000010 10000100 01111110<
+Data Link Layer: Station 2: received an RR frame (ack) >01111110 00000010 10000100 01111110<
+    v(s) = 4, v(r) = 0, Window: lhs=4 rhs=0, Number frames buffered = 0
+------------------------------------------------------------
+--------------------Disconnection-------------------
+Physical layer: received frame >01111110 00000001 10001100 01111110<
+Physical layer: received frame >01111110 00000001 00000000 01010011 ...  01101111 01111110<
+Physical layer: received frame >01111110 00000001 00010000 01110010 ...  01001000 01111110<
+Physical layer: received frame >01111110 00000001 00100000 01000100 ...  01110000 01111110<
+Physical layer: received frame >01111110 00000001 00110000 01101111 ...  01101001 01111110<
+Physical layer: received frame >01111110 00000001 10000001 01111110<
+Physical layer: received frame >01111110 00000001 10000010 01111110<
+Physical layer: received frame >01111110 00000001 01000000 01100011 ...  01101110 01111110<
+Physical layer: received frame >01111110 00000001 01010000 01100101 ...  01110000 01111110<
+Physical layer: received frame >01111110 00000001 10000011 01111110<
+Physical layer: received frame >01111110 00000001 10000100 01111110<
+Physical layer: received frame >01111110 00000001 01100000 01110010 ...  01110100 01111110<
+Physical layer: received frame >01111110 00000001 01110000 01110111 ...  01110011 01111110<
+Physical layer: received frame >01111110 00000001 10000101 01111110<
+Physical layer: received frame >01111110 00000001 10000110 01111110<
+Physical layer: received frame >01111110 00000001 00000000 01110011 ...  01100100 01111110<
+Physical layer: received frame >01111110 00000001 00010000 01100001 ...  01101110 01111110<
+Physical layer: received frame >01111110 00000001 10000111 01111110<
+Physical layer: received frame >01111110 00000001 10000000 01111110<
+Physical layer: received frame >01111110 00000001 00100000 01111001 ...  01101111 01111110<
+Physical layer: received frame >01111110 00000001 00111000 00100000 ...  01100101 01111110<
+Physical layer: received frame >01111110 00000001 10000001 01111110<
+Physical layer: received frame >01111110 00000001 10000010 01111110<
+Physical layer: received frame >01111110 00000001 10000011 01111110<
+Physical layer: received frame >01111110 00000001 10000100 01111110<
+Physical layer: received frame >01111110 00000001 11000010 01111110<
+Physical layer: received frame >01111110 00000010 11000010 01111110<
+Data Link Layer: received DISC frame >01111110 00000010 11000010 01111110<
+Secondary Station (2): Received disconnect indication
+------------------------------------------------------------

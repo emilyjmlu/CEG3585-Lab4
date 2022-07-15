@@ -1,0 +1,142 @@
+--------------------Connection to Station 1-------------------
+Primary Station: Requesting connection to station 1
+Data Link Layer: prepared SNRM frame >01111110 00000001 11001001 01111110<
+Physical layer: transmitted frame >01111110 00000001 11001001 01111110<
+Physical layer: received frame >01111110 00000001 11001110 01111110<
+Data Link Layer: received UA frame >01111110 00000001 11001110 01111110<
+Primary Station: Received connect confirmation from station 1
+----------------------------------------------------------------
+--------------------Connection to Station 2-------------------
+Primary Station: Requesting connection to station 2
+Data Link Layer: prepared SNRM frame >01111110 00000010 11001001 01111110<
+Physical layer: transmitted frame >01111110 00000010 11001001 01111110<
+Physical layer: received frame >01111110 00000010 11001110 01111110<
+Data Link Layer: received UA frame >01111110 00000010 11001110 01111110<
+Primary Station: Received connect confirmation from station 2
+----------------------------------------------------------------
+--------------------Get Message from Station 2-------------------
+Data Link Layer: sending RR frame (poll) >01111110 00000010 10001000 01111110<
+Physical layer: transmitted frame >01111110 00000010 10001000 01111110<
+Physical layer: received frame >01111110 00000010 00000000 01010011 ...  01101111 01111110<
+Data Link Layer: received I frame >01111110 00000010 00000000 01010011 ...  01101111 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000001 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000001 01111110<
+Physical layer: received frame >01111110 00000010 00010000 01110010 ...  01001000 01111110<
+Data Link Layer: received I frame >01111110 00000010 00010000 01110010 ...  01001000 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000010 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000010 01111110<
+Physical layer: received frame >01111110 00000010 00100000 01000100 ...  01110000 01111110<
+Data Link Layer: received I frame >01111110 00000010 00100000 01000100 ...  01110000 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000011 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000011 01111110<
+Physical layer: received frame >01111110 00000010 00110000 01101111 ...  01101001 01111110<
+Data Link Layer: received I frame >01111110 00000010 00110000 01101111 ...  01101001 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000100 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000100 01111110<
+Physical layer: received frame >01111110 00000010 01000000 01100011 ...  01101110 01111110<
+Data Link Layer: received I frame >01111110 00000010 01000000 01100011 ...  01101110 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000101 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000101 01111110<
+Physical layer: received frame >01111110 00000010 01010000 01100101 ...  01110000 01111110<
+Data Link Layer: received I frame >01111110 00000010 01010000 01100101 ...  01110000 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000110 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000110 01111110<
+Physical layer: received frame >01111110 00000010 01100000 01110010 ...  01110100 01111110<
+Data Link Layer: received I frame >01111110 00000010 01100000 01110010 ...  01110100 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000111 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000111 01111110<
+Physical layer: received frame >01111110 00000010 01110000 01110111 ...  01110011 01111110<
+Data Link Layer: received I frame >01111110 00000010 01110000 01110111 ...  01110011 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000000 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000000 01111110<
+Physical layer: received frame >01111110 00000010 00000000 01110011 ...  01100100 01111110<
+Data Link Layer: received I frame >01111110 00000010 00000000 01110011 ...  01100100 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000001 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000001 01111110<
+Physical layer: received frame >01111110 00000010 00010000 01100001 ...  01101110 01111110<
+Data Link Layer: received I frame >01111110 00000010 00010000 01100001 ...  01101110 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000010 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000010 01111110<
+Physical layer: received frame >01111110 00000010 00100000 01111001 ...  01101111 01111110<
+Data Link Layer: received I frame >01111110 00000010 00100000 01111001 ...  01101111 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000011 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000011 01111110<
+Physical layer: received frame >01111110 00000010 00111000 00100000 ...  01100101 01111110<
+Data Link Layer: received I frame >01111110 00000010 00111000 00100000 ...  01100101 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000010 10000100 01111110<
+Physical layer: transmitted frame >01111110 00000010 10000100 01111110<
+Primary Station: Received message from Station 2 >Station 2 to Primary: Message for testing data transfer. 
+The HDLC protocol is designed to support communication over 
+a physical link between physically connected stations.
+In this lab a primary station is connected to two secondary stations.
+This message will be sent by each Secondary station to the Primary.
+Many HDLC I frames shall be used to send this message<
+----------------------------------------------------------------
+--------------------Get Message from Station 1-------------------
+Data Link Layer: sending RR frame (poll) >01111110 00000001 10001100 01111110<
+Physical layer: transmitted frame >01111110 00000001 10001100 01111110<
+Physical layer: received frame >01111110 00000001 00000000 01010011 ...  01101111 01111110<
+Data Link Layer: received I frame >01111110 00000001 00000000 01010011 ...  01101111 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000001 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000001 01111110<
+Physical layer: received frame >01111110 00000001 00010000 01110010 ...  01001000 01111110<
+Data Link Layer: received I frame >01111110 00000001 00010000 01110010 ...  01001000 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000010 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000010 01111110<
+Physical layer: received frame >01111110 00000001 00100000 01000100 ...  01110000 01111110<
+Data Link Layer: received I frame >01111110 00000001 00100000 01000100 ...  01110000 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000011 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000011 01111110<
+Physical layer: received frame >01111110 00000001 00110000 01101111 ...  01101001 01111110<
+Data Link Layer: received I frame >01111110 00000001 00110000 01101111 ...  01101001 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000100 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000100 01111110<
+Physical layer: received frame >01111110 00000001 01000000 01100011 ...  01101110 01111110<
+Data Link Layer: received I frame >01111110 00000001 01000000 01100011 ...  01101110 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000101 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000101 01111110<
+Physical layer: received frame >01111110 00000001 01010000 01100101 ...  01110000 01111110<
+Data Link Layer: received I frame >01111110 00000001 01010000 01100101 ...  01110000 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000110 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000110 01111110<
+Physical layer: received frame >01111110 00000001 01100000 01110010 ...  01110100 01111110<
+Data Link Layer: received I frame >01111110 00000001 01100000 01110010 ...  01110100 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000111 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000111 01111110<
+Physical layer: received frame >01111110 00000001 01110000 01110111 ...  01110011 01111110<
+Data Link Layer: received I frame >01111110 00000001 01110000 01110111 ...  01110011 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000000 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000000 01111110<
+Physical layer: received frame >01111110 00000001 00000000 01110011 ...  01100100 01111110<
+Data Link Layer: received I frame >01111110 00000001 00000000 01110011 ...  01100100 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000001 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000001 01111110<
+Physical layer: received frame >01111110 00000001 00010000 01100001 ...  01101110 01111110<
+Data Link Layer: received I frame >01111110 00000001 00010000 01100001 ...  01101110 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000010 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000010 01111110<
+Physical layer: received frame >01111110 00000001 00100000 01111001 ...  01101111 01111110<
+Data Link Layer: received I frame >01111110 00000001 00100000 01111001 ...  01101111 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000011 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000011 01111110<
+Physical layer: received frame >01111110 00000001 00111000 00100000 ...  01100101 01111110<
+Data Link Layer: received I frame >01111110 00000001 00111000 00100000 ...  01100101 01111110<
+Data Link Layer: prepared RR frame(ack) >01111110 00000001 10000100 01111110<
+Physical layer: transmitted frame >01111110 00000001 10000100 01111110<
+Primary Station: Received message from Station 2 >Station 1 to Primary: Message for testing data transfer. 
+The HDLC protocol is designed to support communication over 
+a physical link between physically connected stations.
+In this lab a primary station is connected to two secondary stations.
+This message will be sent by each Secondary station to the Primary.
+Many HDLC I frames shall be used to send this message<
+----------------------------------------------------------------
+------------------- Disconnect Station 1-------------------
+Primary Station: Requesting dicsonnect from station 1
+Data Link Layer: prepared DISC frame >01111110 00000001 11000010 01111110<
+Physical layer: transmitted frame >01111110 00000001 11000010 01111110<
+----------------------------------------------------------------
+------------------- Disconnect Station 2-------------------
+Primary Station: Requesting dicsonnect from station 2
+Data Link Layer: prepared DISC frame >01111110 00000010 11000010 01111110<
+Physical layer: transmitted frame >01111110 00000010 11000010 01111110<
+----------------------------------------------------------------
